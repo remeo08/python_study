@@ -1,0 +1,36 @@
+typehint, docstring 함수 다음줄에 함수 설명 넣는 것. """  """
+- 강제성 X
+
+모르는 코드 gpt에 복붙해서 한 줄씩 설명해달라 하면 편함.
+
+
+<print 와 return의 차이>
+print는 콘솔창에 써주는 것. 코드 확인하고자 사용함.
+return은 반환하는 것. 메모리에 저장하는 것.
+
+def add_return(a, b):
+	return a + b
+
+이렇게만 쓰면 콘솔 창엔 아무것도 나타나지 않음.
+result = return a+ b 로 저장할 수 있음.
+
+def add_print(a, b):
+	print(a + b)
+여기에서 result = print(a+b)라고 한다해도 result에 저장되지 않음.
+
+def fun(a):
+    if a == 10:
+	return a
+    print a
+
+라는 함수에서 fun(10)을 넣어도 10은 print a까지 가지 못하고 retrun a에서 끝남.
+
+
+
+34강 클래스
+클래스 (a.k.a. 붕어빵 틀, 설계도)
+인스턴스
+
+클래스, 메타클래스 중요
+가상환경 왜 쓰고, 어떻게 세팅하는지
+코드 잘 짜는 건 차라리 쉬워졌기 때문에 이해가 중요....
